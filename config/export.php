@@ -1,0 +1,12 @@
+<?php
+return[
+    "exporters"=>[
+    "PDF"=>Crm\Customer\Services\ExportServices\PdfExport::class,
+    "pdf"=>Crm\Customer\Services\ExportServices\PdfExport::class,
+    "HTML"=>Crm\Customer\Services\ExportServices\HtmlExport::class,
+    "html"=>Crm\Customer\Services\ExportServices\HtmlExport::class,
+    "EXCEL"=>Crm\Customer\Services\ExportServices\ExcelExport::class,
+    "excel"=>Crm\Customer\Services\ExportServices\ExcelExport::class
+    ]
+]
+?>
